@@ -1,3 +1,10 @@
+界面示意图
+
+
+<img src="./assets/界面.png">
+
+启动命令
+
 ```
 python -m llava.serve.controller --host 0.0.0.0 --port 20000
 python -m llava.serve.gradio\_web\_server --controller http://localhost:20000 --model-list-mode reload
